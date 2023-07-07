@@ -156,6 +156,22 @@ margin-top: 3%;
     box-shadow: 0 0 1rem #0ef ;
    
 }
+
+.buton4{
+    margin-top: 2%;
+    width: 20%;
+   
+    color:#323946;
+    font-weight: 600;
+    font-size: 15px;
+    border:none;
+    border-radius: 30px;
+    padding: 7px 17px;
+  transition: .5s ease;
+    background-color:#0ef ;
+    box-shadow: 0 0 1rem #0ef ;
+   
+}
 box-icon{
     font-size: large;
 }
