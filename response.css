@@ -415,15 +415,20 @@ home_img {
     
     .buton {
         margin-top: 2%;
-        width: 70%;
+        width: 75%;
     }
     .buton2 {
         margin-top: 2%;
-        width: 70%;
+        width: 75%;
     
     
     }
+    .buton4 {
+        margin-top: 2%;
+        width: 40%;
     
+    
+    }
     .portfolio-container {
         grid-template-columns: 1fr; 
         width: 50%;
