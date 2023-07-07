@@ -16,7 +16,7 @@
         
     }
     .home_main {
-        padding-top: 20%;
+        padding-top: 10%;
         padding-bottom: 30%;
     }
     
@@ -79,7 +79,7 @@
     
     .buton {
         margin-top: 5%;
-        width: 71%;
+        width: 80%;
         margin-left: 9%;
         color: #323946;
         font-weight: 600;
@@ -189,10 +189,176 @@ home_img {
     height: 8%;
 }
 
+}
+
+@media screen and (max-width: 915px) {
+.buton {
+    width: 34%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 32%;
 
 
+}
+}
+@media screen and (max-width: 887px) {
+
+.Nav {
+    height: auto;
+    display: flex;
+   
+    padding: 1.5% 2%;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    background: #1f242d;
+    height: 10%;
+}
+
+.menu a {
+    text-decoration: none;
+  
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5%;
+    color: #fff;
+    transition: .3s;
+}
+
+.buton {
+    width: 38%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 36%;
 
 
+}
+
+}
+
+@media screen and (max-width: 748px) {
+
+.buton {
+    width: 40%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 38%;
 
 
+}
+
+}
+
+@media screen and (max-width: 719px) {
+
+    .Nav {
+        flex-direction: column;
+          padding: 2.5% 2%;
+          color: #fff;
+          position: fixed;
+          width: 100%;
+          background: #1f242d;
+          height: 15%;
+  }
+  .menu {
+      width: 100%;
+  }
+  .menu a {
+      margin-left: 4%;
+      font-size: 20px;
+      
+  }
+  .home_main {
+      padding-top: 10%;
+      padding-bottom: 30%;
+  }
+
+  .buton {
+    width: 42%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 41%;
+
+
+}
+
+}
+
+@media screen and (max-width: 606px) {
+
+    .buton {
+        width: 50%;
+    }
+    .buton2 {
+        margin-top: 2%;
+        width: 49%;
+    
+    
+    }
+
+    .footer {
+       
+        padding: 2rem 5%;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .buton {
+        width: 68%;
+    }
+    .buton2 {
+        margin-top: 2%;
+        width: 70%;
+    
+    
+    }
+
+    .footer {
+       
+        padding: 2rem 2%;
+    }
+    .footer-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+.home_main {
+    padding-top: 15%;
+
+}
+.menu a {
+    margin-left: 4%;
+    font-size: 12px;
+}
+
+.icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: 0.5rem solid #0ef;
+    border-radius: 90%;
+    font-size: 2rem;
+    color: #0ef;
+    margin: 2.5%;
+}
+
+.buton {
+    width: 89%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 88%;
+
+
+}
 }
