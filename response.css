@@ -380,7 +380,29 @@ home_img {
         background: #323946;
         width: 100%;
         padding-bottom: 15%;
+        padding-top: 10%;
     }
+    .about_text h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .about_text h3 {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .about_text p {
+        color: #fff;
+        font-size: 10px;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
     .menu a {
         margin-left: 3%;
         font-size: 15px;
@@ -392,11 +414,11 @@ home_img {
     }
     
     .buton {
-        width: 80%;
+        width: 65%;
     }
     .buton2 {
         margin-top: 2%;
-        width: 81%;
+        width: 60%;
     
     
     }
@@ -426,7 +448,15 @@ home_img {
         height: 100vh;
         display: none;
     }
-    
+    .service .service1 {
+        flex: 1 1 20rem;
+        background: #323946;
+        padding: 3rem 2rem 4rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 0.2rem solid #1f242d;
+        transition: .5s ease;
+    }
 
 }
 
