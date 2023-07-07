@@ -363,7 +363,7 @@ home_img {
 }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 496px) {
 .footer-text p {
     font-size: 1rem;
 }
