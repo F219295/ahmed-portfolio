@@ -363,14 +363,14 @@ home_img {
 }
 }
 
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 498px) {
 .footer-text p {
     font-size: 1rem;
 }
 
 .menu a {
     margin-left: 3%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact form textarea {
@@ -379,7 +379,7 @@ home_img {
 }
 
 .buton {
-    width: 65%;
+    width: 75%;
 }
 .buton2 {
     margin-top: 2%;
