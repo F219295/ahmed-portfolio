@@ -379,9 +379,11 @@ home_img {
         gap: 2rem;
         background: #323946;
         width: 100%;
-        padding-bottom: 35%;
-        padding-top: 39%;
+        padding-bottom: 20%;
+        padding-top: 35%;
     }
+    
+    
     .serv h2 {
         font-size: 35px;
         margin-top: 30%;
@@ -499,9 +501,11 @@ home_img {
         gap: 2rem;
         background: #323946;
         width: 100%;
-        padding-bottom: 15%;
-        padding-top: 10%;
+        padding-bottom: 20%;
+        padding-top: 35%;
     }
+    
+    
     .about_text h2 {
         color: #fff;
         font-size: 30px;
