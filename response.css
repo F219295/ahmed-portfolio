@@ -362,3 +362,48 @@ home_img {
 
 }
 }
+
+@media screen and (max-width: 496px) {
+.footer-text p {
+    font-size: 1rem;
+}
+
+.contact form textarea {
+    height: 30vh;
+    width: 80%;
+}
+
+.buton {
+    width: 65%;
+}
+.buton2 {
+    margin-top: 2%;
+    width: 65%;
+
+
+}
+
+.portfolio-container {
+    grid-template-columns: 1fr; 
+    width: 40%;
+  
+  }
+
+  .portfolio-container .portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #1f242d;
+    overflow: hidden;
+    display: flex;
+    width: 103%;
+    height: 120%;
+    margin-left: 70%;
+    
+}
+
+.portfolio {
+    background: #323946;
+    height: 130vh;
+}
+
+}
