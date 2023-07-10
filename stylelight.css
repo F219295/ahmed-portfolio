@@ -11,12 +11,12 @@
    
 }
 :root {
-    --bg2-color: #F7F7F7;
+    --bg2-color: #BFCAD1;
     --main-color: #6C757D;
     --t-color: #222222;
-    --b1-color: #BFCAD1;
-    --b3-color: #f8f5f5;
-    --b4-color: #413f3f; 
+    --b1-color: #F7F7F7;
+    --b3-color: #898383;
+    --b4-color: #F7F7F7; 
 }
 .but{
     color:var(--b1-color);
@@ -426,6 +426,7 @@ transform:scale(1.02);
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap:2.5rem;
+    
     margin: 8% 4% 20% 3%;
   
   }
@@ -433,16 +434,17 @@ transform:scale(1.02);
   .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--b1-color);
+    box-shadow: 0 0 0rem var(--b1-color);
     overflow: hidden;
     display: flex;
     width:103%;
-    height: 120%;
+  
    
   }
   
 .portfolio-box img{
     width: 100%;
+    height: 80%;
 transition: .5s ease;
 }
 .portfolio-box:hover img{
@@ -453,8 +455,8 @@ transform: scale(1.1);
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(230, 225, 225, 0.1),var(--b3-color));
+    height: 105%;
+    background: linear-gradient(rgba(223, 219, 219, 0.1),var(--b3-color));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -469,11 +471,13 @@ transform: scale(1.1);
 }
 .portfolio-layer h4{
     font-size: 3rem;
+    color:  black;
 }
 
 .portfolio-layer p{
     font-size: 1.5rem;
     margin: .3rem 0 1rem;
+    color: black;
 }
 
 .portfolio-layer a{
