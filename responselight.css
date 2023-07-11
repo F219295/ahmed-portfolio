@@ -232,12 +232,13 @@
     gap: 2.5rem;
     margin: 8% 4% 20% 3%;
     display: flex;
+    padding-bottom: 15%;
     flex-direction: column;
    
     }
     .portfolio {
         background: var(--bg2-color);
-        height: 130vh;
+        height: auto;
     }
     .portfolio-container .portfolio-box {
   
