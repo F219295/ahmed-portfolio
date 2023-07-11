@@ -431,6 +431,9 @@
     .footer-text p {
         font-size: 0.9rem;
     }
+    .home_main{
+        flex-direction: column;
+    }
 
     .home_main {
         padding-top: 15%;
