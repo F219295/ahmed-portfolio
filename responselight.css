@@ -213,25 +213,6 @@
 
 }
 
-@media screen and (max-width: 426px) {
-    .buton {
-        width: 68%;
-    }
-    .buton2 {
-        margin-top: 2%;
-        width: 70%;
-    
-    
-    }
-
-    .footer {
-       
-        padding: 2rem 2%;
-    }
-    .footer-text p {
-        font-size: 1.2rem;
-    }
-}
 
 @media screen and (max-width: 321px) {
 .home_main {
